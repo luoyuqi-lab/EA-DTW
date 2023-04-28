@@ -8,6 +8,7 @@ Also include partitioning and slicing method. Dataset CinCECGTorso and Phoneme.
 Please run quickly start to know functions outputs.
 
 Example:
+
 `a = [2,6,4,7,1,5,2,4,9,4,3,5,7,6,4,9,5,6,7,8,4,2,3,4,1,2,3,4,5,6]`
 
 `b = [3,6,7,5,2,2,4,8,8,7,5,4,1,2,5,5,2,9,4,3,8,5,1,2,6,7,7,8,9,2]`
@@ -50,9 +51,9 @@ Time series reassemble:
 
 
 
-If these codes can help you, please give a STAR.
+***If these codes can help you, please give a STAR.***
 
-If you use these code or idea in your research/software/product, please cite our paper:
+***If you use these code or idea in your research/software/product, please cite our paper:***
 
 `TBD update`
 
