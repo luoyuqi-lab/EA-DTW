@@ -3,7 +3,7 @@ def partition(a, b, n):
 :param a: Time series a
 :param b: Time series b
 :param n: Divide time series into n parts.
-:returm: a set of n time series partitions.
+:returm: a ,b sub-series of n (number of slicing) time series partitions.
 """
 
     if len(a) == len(b):
@@ -46,3 +46,7 @@ def part_contri(a, b):
     c = [abs(a[i]-b[i]) for i in range(len(a))]
     index = sum(c)
     return index
+
+# a = [2,6,4,7,1,5,2,4,9,4,3,5,7,6,4,9,5,6,7,8,4,2,3,4,1,2,3,4,5,6]
+# b = [3,6,7,5,2,2,4,8,8,7,5,4,1,2,5,5,2,9,4,3,8,5,1,2,6,7,7,8,9,2]
+# print(partition(a,b,4))
