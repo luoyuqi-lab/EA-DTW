@@ -5,8 +5,8 @@ import math
 
 
 
-data_raw_train = txt_loader(r'C:\Users\luoyu\Desktop\Car\Car_TRAIN.txt')
-data_raw_test = txt_loader(r'C:\Users\luoyu\Desktop\Car\Car_TEST.txt')
+data_raw_train = txt_loader(r'path\Car_TRAIN.txt')
+data_raw_test = txt_loader(r'path\Car_TEST.txt')
 BSF_Full_PDTW_1NN = float('inf')
 predicted_class_Full_PDTW = float('inf')
 BSF_directly_1NN = float('inf')
