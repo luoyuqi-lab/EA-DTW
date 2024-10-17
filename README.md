@@ -65,7 +65,22 @@ Also include the txt file input code, time series slicing code, and dataset Car.
 
 ***If you use these codes or ideas in your research/software/product, please cite our paper:*** :+1:
 
-`TBD update`
+`@article{luo2024accurate,
+
+  title={An accurate slicing method for dynamic time warping algorithm and the segment-level early abandoning optimization},
+  
+  author={Luo, Yuqi and Ke, Wei and Lam, Chan-Tong and Im, Sio-Kei},
+  
+  journal={Knowledge-Based Systems},
+  
+  volume={300},
+  
+  pages={112231},
+  
+  year={2024},
+  
+  publisher={Elsevier}
+}`
 
 
 #### Be sure your use follows the license. :zap:
